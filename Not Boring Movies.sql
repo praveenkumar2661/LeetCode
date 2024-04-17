@@ -1,0 +1,4 @@
+SELECT * 
+FROM cinema 
+WHERE MOD(id,2) != 0 AND DESCRIPTION != 'boring'
+ORDER BY RATING DESC ;
