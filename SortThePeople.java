@@ -1,5 +1,6 @@
 package LeetCode;
 
+
 public class SortThePeople 
 {
 	public String[] sortPeople(String[] names, int[] heights) 
