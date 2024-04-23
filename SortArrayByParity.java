@@ -2,19 +2,19 @@ package LeetCode;
 
 public class SortArrayByParity 
 {
-	public int[] sortArrayByParity(int[] arr) 
+	public int[] sortArrayByParity(int[] nums) 
     {
 		int count = 0;
-	       for(int i = 0; i < arr.length; i++)
+	       for(int i = 0; i < nums.length; i++)
 	        {
-	            if(arr[i]%2 == 0)
+	            if(nums[i]%2 == 0)
 	            {
-	                int temp = arr[i];
-	                arr[i] = arr[count];
-	                arr[count] = temp;
+	                int temp = nums[i];
+	                nums[i] = nums[count];
+	                nums[count] = temp;
 	                count++;
 	            }
 	        }
-	        return arr;
+	        return nums;
     }
 }
